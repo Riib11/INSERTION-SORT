@@ -1,0 +1,63 @@
++==============================+
+| Employee Records : March     |
++==============================+
+
+
+Name: Cat Rand
+DOB: 14 / 3 / 76
+Title: engineer
+
+
+Name: Talos Rand
+DOB: 18 / 5 / 93
+Title: supervisor
+
+
+Name: Jacob Rand
+DOB: 24 / 7 / 75
+Title: deputy supervisor
+
+
+Name: Cyrstal Ensey
+DOB: 26 / 10 / 79
+Title: engineer
+
+
+Name: Kenneth Renne
+DOB: 9 / 12 / 76
+Title: engineer
+
+
+Name: Jessica McBeth
+DOB: 22 / 10 / 77
+Title: assistant
+
+
+Name: Ian Smith
+DOB: 20 / 2 / 89
+Title: deputy supervisor
+
+
+Name: Teresa Box
+DOB: 3 / 3 / 86
+Title: cheer-leader
+
+
+Name: Leanora Whittier
+DOB: 23 / 11 / 93
+Title: engineer
+
+
+Name: Danyel Phoenix
+DOB: 5 / 10 / 77
+Title: tech support
+
+
+Name: Destiny Pafford
+DOB: 5 / 8 / 77
+Title: engineer
+
+
+Name: Wilma Sanches
+DOB: 8 / 8 / 87
+Title: supervisor
