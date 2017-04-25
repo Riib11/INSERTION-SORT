@@ -1,0 +1,83 @@
+Main plot:
+- Beginning:
+    - Progress though verying difficulty levels of hacking with interesting puzzles
+- Middle:
+    - at some point you will find something critical:
+        - note on threat to national security. privacy is being destroyed by greater and greater power to spy on you at every moment
+- End:
+    - hacking will involve more and more things in the real world, and having to talk to people about things to get info.
+    - also, you will start having to use more and more intuitive knowledge to figure out the passwords
+    - at the end, you will find out that you are a machine learning algorithm, and you have been 
+
+- Beginning:
+    - you get a to do list from the boss. doing things on it will give you reputation. reputation will help you come back from doing suspicious things. if your reputation goes below 0, then you are fired!
+        - get to do list, which includes things you can do for reputation
+        - getting reputation is also good in itself. you need to get to certain amounts of reputation in order to get more and more access privelages, and then you get access to more programs because Sorth has access to more data. This amounts to being able to get imporant hints about the clues
+
+    - break into ian's computer using model hash attack
+
+    - Ian is the deputy of HR, is into golf, and is in love with Jessica. Access Ian's laptop. On it, you will see a message from the Boss, that gives a glimpse into what the secret plan is for that SORT is trying to pull off. Additionally, you will find an email to Jessica, that is expressing his attraction to her. At the end of it, there will be a part about how her reset her password since she forgot it. it is reset to her birth date. so you will have to look through the HR files on Ian's computer to find jessica's birthdate.
+        - get teaser to what SORT is doing
+        - get hint that you need to break into Jessica's computer
+    
+    - Next, you will hack into jessica's computer. you will find that she has a bunch of training data for a machine learning algorithm. Also, she has the ss of her brother.
+        - learn that Jessica has a bunch of machine learning data
+        - get SS of Jessica's brother
+        - need to figure out who Jessica's brother is (could be Kenneth of Larry)
+    
+    - Next, you will be prompted to talk to Jessica, because she might be connected to Ian's info somehow. You talk to Jessica, and find out the Kenneth is her brother. So now you know Kenneth's SS.
+        - find out that Kenneth is Jessica's brother
+    
+    - get SSN hash attack program from Sorth
+
+    - With kenneth's SS, you can run a program that searches through all passwords for an SS, and use the one that correlates to Kenneth's personality.
+
+    - figure out which password is Kenneth's by looking around in his office and seeing the big 3
+
+    - When you get into Kenneth's computer, you will find that Kenneth has been talking to Ian, and Ian says that he's detected unusual activity on his computer, and he needs it to get checked out for viruses. Kenneth responds by saying that he has also been detecting unusual activity in the building at night, and that hopefully it isn't correlated with teh strange actvity on teh comptuer. Also, it contains info about the Boss, saying that the boss really likes cats, and that the boss sent him a bunch of wierd cat pics. There is an email from the boss saying that his cat tore up some papers recently, but doesn't the cat look so cute!
+        - see cat pics, so figure out Boss's password
+        - get hint that you need to act fast
+
+    - Of course, the cat pictures will have the Boss's password on them, so youll be able to sneak into his laptop next.
+
+    - In the Boss's laptop, you will see a thing saying that the trial is completed, in an email (meaning that your trial has completed)
+        - also, there will be a thing about ai, and how ai is deciding to act
+
+    - when you leave teh laptop, the ending sequence will play
+        - first, screen will go fuzzy
+        - then, text will appear saying again that the trial has ended, adn it will list the player's achievements, reputation, stuff like that
+        - then, it will say that hte data has been recorded in order to be processed by another machine learning algorithm, that is trying to stop you from hacking into the system.
+        - you learn that you were simply just a trial in a machine learning algorithms path of training, and that the ai is trying to protect itself from intruders that are what you are simulated to be.
+        - then, rotates to next trial
+
+    - the end
+
+Side missions:
+    - Teresa:
+        - likes to find out gossip about Ian and Jessica. Want's you to go get postcard that Ian send Jessica (its in Jessica's cubicle). You can't get caught taking the postcard.
+        - when you give her the postcard, Teresa will give you some (juicy) info about the other employees. This will lead to you getting reputation as well.
+
+    - Larry:
+        - is a cryptographer. boasts that his code is unbreakable. (its 牢不可破 (which means unbreakable in chinese traditional))
+
+sources of losing reputation:
+- taking golf club: -2
+- taking post card: -3
+- stealing secret file: -5
+- going to SORT at night: -1
+
+sources of reputation:
+- first day: 1
+- doing work: 1-3 each
+- give kenneth his papers: 5
+- stole post card for Teresa: 6
+- give papers to boss: 7
+
+
+Main things to do:
+    - Add side thigns to do to get reputation
+    - Add programs that you get accesss to when you get reputation
+    - Extend the lenght of game slightly by adding more employees or taking advantage of
+        Larry and Teresa's puzzles (make them really hard)
+    - And ending (when you get access to the boss's laptop)
+    - Document everything!
