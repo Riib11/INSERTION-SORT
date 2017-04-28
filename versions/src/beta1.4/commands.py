@@ -265,7 +265,7 @@ class WorldCommands(Commands):
                 else:
                     go.opened = True
                     print()
-                    print("(you opened the " + t + ")")
+                    print("(you opened the " + t + ". use 'explore' to view what's inside.)")
                     print()
                     w.save_gameobject(go)
             else:
@@ -343,6 +343,8 @@ class WorldCommands(Commands):
             self.bad("you need to provide a target.")
             return False
 
+        w = get_world()
+
         if w.get_npc(target):
             self.bad("you can't go to characters! you can only go to locations/vehicles")
             return False
@@ -355,10 +357,14 @@ class WorldCommands(Commands):
         elif target == "house":
             return self.go(["gt", "garage"])
 
+        # same idea for work and SORT
         elif target == "work":
-            return self.go(["gt", "work"])
+            return self.go(["gt", "SORT"])
+
+        # same idea for lobby and SORT
+        elif target == "lobby":
+            return self.go(["gt", "SORT"])
         
-        w = get_world()
         loc = w.player.get_location().get_connection(target)
         if loc:
             w.player.location = target
@@ -524,14 +530,17 @@ class WorldCommands(Commands):
         else:
             print("in this area there are:")
             for npc in w.player.get_location().get_npcs():
-                print("  *",npc.name)
+                if npc:
+                    print("  *",npc.name)
             for comp in w.player.get_location().get_computers():
-                print("  >",comp.name)
+                if comp:
+                    print("  >",comp.name)
             for go in w.player.get_location().get_gameobjects():
-                print("  -",go.name)
-                if go.opened:
-                    for i in go.specials['contents']:
-                        print("     -",i)
+                if go:
+                    print("  -",go.name)
+                    if go.opened:
+                        for i in go.specials['contents']:
+                            print("     -",i)
         print()
 
     # get the description of an npc, gameobject, or computer

@@ -1,1 +1,0 @@
-I only use private key encryption for all my messages.
