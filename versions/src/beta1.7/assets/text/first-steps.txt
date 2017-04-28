@@ -1,0 +1,17 @@
+=================================================
+= from: serverside@hide.tor
+=================================================
+= to: clientside@hide.tor
+=================================================
+= subject: first steps
+=================================================
+
+alright, you’re finally inside. you probably don’t realize how much effort has gone into getting you into the smeazy little cubicle you now inhabit. SORT doesn’t really seem like too much from the beginner level, it seems.
+
+but even at the intro-level position you have acquired, you have access to some very important things - the most important being Ian’s-laptop. Ian is a deputy-supervisor of the security for SORT’s base level HR, so he shouldn’t be a difficult target.
+
+so, now for the method. there is a model hash attack program on your computer that I just installed. we’ve worked for a long time on this program, so it should work. to use it, enter a model of computer (e.g. dell-optiplex, and make sure its all lower-case). the program will scan our databases and return a list of possible passwords for computers in the building of that model. from there, you should be able to do some detective work to figure out which one is for Ian’s computer.
+
+luck,
+
+- Sorth Elper
