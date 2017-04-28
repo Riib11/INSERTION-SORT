@@ -1,0 +1,57 @@
+{
+
+    "Cat": {
+        "inventory": [
+            [["yo-yo"],["me-meow meow! (wants to play with yo-yo)"]]
+        ],
+        "default": ["meow", "meow", "meeeeooooooow","mew","mew","moo"]
+    },
+
+    "Jacob": {
+        "default": ["hey player can I have some money, I need to go ... you know I have to go get more school supplies."]
+    },
+
+    "Talos": {
+        "reputation": [
+            [1, ["you shouldn't be in here. please escort yourself out of the building."]],
+            [5, ["you need to step up your game around here, I don't know how long we'll be able to keep you around with your present performance."]],
+            [11, ["welcome to your first day at work player. I can already tell you will do great things here at sort."]],
+            [15, ["looks like you've been doing some good work, keep it up!"]],
+            [23, ["I'm very happy with your efficiency around the office. you're doing great!"]],
+            [30, ["you've been doing excellent work recently. keep it up, and eventually you'll be up on the wall as employee of the month!"]]
+        ],
+        "default": ["get to work!", "your world won't get itself done. please close the door behind you.", "(is busy)"]
+    },
+
+    "Ian": {
+        "reputation": [
+            [1, ["you must be the new guy. hope you've made yourself at home in your cubicle. by the way, do you like golf? some of the other employees and I want to go play golf next week, maybe you'd like to join us as a kind of ice-breaker."]],
+            [25, ["have you noticed any suspicious activity around here at night?"]]
+        ],
+        "default": ["you must be the new guy. hope you've made yourself at home in your cubicle. by the way, do you like golf? some of the other employees and I want to go play golf next week, maybe you'd like to join us as a kind of ice-breaker."]
+    },
+
+    "Jessica": {
+        "default": ["hey there, welcome to my cubicle", "I hope that you're enjoying you time here at SORT so far."]
+    },
+
+    "Kenneth": {
+        "default": ["please don't tell me that my sister has even MORE work for me."]
+    },
+
+    "Teresa": {
+        "default": ["hear any new gossip recently?"]
+    },
+
+    "Larry": {
+        "default": ["bonjour a le SORT, player. you seem alright, so you'll probably learn the ropes pretty soon, just keep up the hard work and someday you might become as successful as I am. also, by the way, I'm one of the world's leading cryptographers, and I've discovered the perfect password. its unbreakable!"]
+    },
+
+    "Stray-cat": {
+        "default": ["mrrrow", "mrrrow", "hissssss", "hissssss", "*licks paws*"]
+    },
+
+    "Janitor": {
+        "default": ["a little late to be at work, wouldn't you say?", "you should head on home, I'm going to lock the doors again in an hour or so."]
+    }
+}

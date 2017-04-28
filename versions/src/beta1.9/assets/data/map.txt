@@ -1,0 +1,10 @@
+|-------------------|     I: Ian's-cubicle          M: my-cubicle
+| Jacob's | kitchen |     J: Jessica's-cubicle      Info: info-desk
+|  Room   |         |     K: Kenneth's-cubicle          |--------------------|           
+|-------------------|     L: Larry's-cubicle            |    I     |    J    |           
+|  My     | garage  |---------                          |------------------- |
+|   Room  |       (car) - - -  \                        |  SORT    |   K     |
+---------------------|----\  \  \                       |------------------- |
+      (house)              \  \  \-----        -------- |Info |  M   |   L   |
+                            \  - - - -  . . . - - (car) |--------------------|
+                             -----------        -------       (work)

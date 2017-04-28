@@ -1,0 +1,358 @@
+{
+    "_example": {
+        "single": 0,
+        "requirements": {
+            "reputation": "must have reputation greater than or equal to this",
+            "under reputation": "must have reputation below or equal to this",
+            "talking": ["people need to be talking to"],
+            "running": ["programs that could be running"],
+            "using": ["items that could be being used"],
+            "locations": ["locations this action could trigger in"],
+            "items": ["items that are needed"],
+            "payment": ["items that will be taken"],
+            "devices": ["devices that are needed"],
+            "actions": ["actions that need to previously have been done"],
+            "computer": ["a computer one needs to be on"],
+            "solved": ["computers that need to have been solved"],
+            "mode": ["mode one needs to be in"],
+            "time": "a time of day",
+            "worldstate": "worldstate that is needed"
+        },
+        "results": {
+            "reputation": 0,
+            "location": [],
+            "place object": ["name", "place"],
+            "mode": "",
+            "items": [],
+            "devices": [],
+            "time": 0,
+            "dialogue": "",
+            "worldstate": ""
+        }
+    },
+    "should go to work": {
+        "single": 1,
+        "requirements": {
+            "mode": "real"
+        },
+        "results": {
+            "dialogue": "you really should get to work. today is your first day! your car is in the garage, so get to it and be on your way.) Explore rooms with 'explore' and 'inspect [object]', and use 'nearby' and 'map' to figure out where to go. also, you'll need to figure out the passwords to you laptop and phone, so look around inside stuff in your room for a hint."
+        }
+    },
+    "stealing sandwich": {
+        "single": 1,
+        "requirements": {
+            "items": ["sandwich"],
+            "locations": ["garage"]
+        },
+        "results": {
+            "dialogue": "(Jacob) Hey, that's my sandwich! I spent all morning making it and ... yeah, give it back.",
+            "take": ["sandwich"]
+        }
+    },
+    "first-day": {
+        "single": 1,
+        "requirements": {
+            "locations": ["SORT"]
+        },
+        "results": {
+            "dialogue": "Welcome to your first day at SORT Incorporated! (there are many employees in this branch of the company, and in order to interact with them, all you have to do is go to their cubicle/office and say hello. (to give things to people, talk to them to let them know what you want to give them))",
+            "items": ["welcome-note"],
+            "reputation": 1
+        }
+    },
+    "get to-do list": {
+        "single": 1,
+        "requirements": {
+            "talking": ["Talos"]
+        },
+        "results": {
+            "dialogue": "Your Boss hands you a to-do list, and you hesitantly accept it (not too hesitantly, however). Your phone buzzes right after you recieve the list.",
+            "items": ["to-do-list"],
+            "computer_files": [
+                ["phone", "email/doing-work.email", "public"],
+                ["laptop", "documents/work/do_work.workflow", "public"]
+            ]
+        }
+    },
+
+    "using phone": {
+        "single": 1,
+        "requirements": {
+            "computer": ["phone"]
+        },
+        "results": {
+            "dialogue": "This is your cell phone. You can use it to check your email."
+        }
+    },
+    "using laptop": {
+        "single": 1,
+        "requirements": {
+            "computer": ["laptop"]
+        },
+        "results": {
+            "dialogue": "This is your laptop. It has some stuff on it, and you can use it to make it look like you're doing work when you're at SORT. you're in your bedroom right now, using your laptop. to exit out of the laptop and go into the real world, use 'exit'. to explore what's on your laptop, use 'ls' and 'cd [dir]'. use 'help' to get computer commands."
+        }
+    },
+    "first enter your office": {
+        "single": 1,
+        "requirements": {
+            "locations": ["my-cubicle"]
+        },
+        "results": {
+            "dialogue": "you have recieved an email from Sorth",
+            "computer_file": ["phone", "email/first-steps.email", "public"]
+        }
+    },
+    "first enter Talos's office": {
+        "single": 1,
+        "requirements": {
+            "locations": ["Boss's-office"]
+        },
+        "results": {
+            "dialogue": "(Talos) hello there! I'm your boss, and my name is Talos so please refer to me as that when you are trying to talk to me."
+        }
+    },
+    "stole top-secret-file": {
+        "single": 1,
+        "requirements": {
+            "time": "day",
+            "items": ["top-secret-file"],
+            "locations": ["SORT", "Ian's-cubicle"]
+        },
+        "results": {
+            "dialogue": "(Ian) hey! what are you doing with that file, you're just a newbie! give that to me.",
+            "take": ["top-secret-file"],
+            "reputation": -5
+        }
+    },
+    "solved Ian's laptop": {
+        "single": 1,
+        "requirements": {
+            "solved": ["Ian's-laptop"],
+            "mode": "real"
+        },
+        "results": {
+            "dialogue": "(hint: great job breaking into Ian's laptop! Now, you should take a look at Jessica's, and then other peoples's. You need to figure out things about their personality, explore their offices, and use your avaliable programs to crack their codes. good luck!)"
+        }
+    },
+    "don't use golf club": {
+        "single": 1,
+        "requirements": {
+            "time": "day",
+            "items": ["golf-club"],
+            "locations": ["SORT", "Ian's-cubicle"]
+        },
+        "results": {
+            "dialogue": "(Ian) why do you have my gold club! get your own.",
+            "take": ["golf-club"],
+            "place object": ["golf-club", "Ian's-cubicle"],
+            "reputation": -2
+        }
+    },
+    "first enter Jessica's cubicle": {
+        "single": 1,
+        "requirements": {
+            "locations": ["Jessica's-cubicle"],
+            "time": "day"
+        },
+        "results": {
+            "dialogue": "(Jessica) could you go run this paper over to Kenneth? here's a little reward for you too.",
+            "items": ["chocolate-kiss", "Kenneth's-papers"]
+        }
+    },
+    "give Kenneth his papers": {
+        "single": 1,
+        "requirements": {
+            "locations": ["Kenneth's-cubicle"],
+            "time": "day",
+            "talking": ["Kenneth"],
+            "items": ["Kenneth's-papers"]
+        },
+        "results": {
+            "dialogue": "(Kenneth) oh no, you DO have more papers from her. she's always giving me more and more work ... all the time ...",
+            "take": ["Kenneth's-papers"],
+            "reputation": 7
+        }
+    },
+    "found ssn": {
+        "single": 1,
+        "requirements": {
+            "solved": ["Jessica's-laptop"],
+            "mode": "real"
+        },
+        "results": {
+            "dialogue": "you have recieved an email from Sorth",
+            "computer_file": ["phone", "email/any-and-all-info.email", "public"]
+        }
+    },
+    "get the ss program": {
+        "single": 1,
+        "requirements": {
+            "locations": ["Kenneth's-cubicle"]
+        },
+        "results": {
+            "dialogue": "you have recieved an email from Sorth",
+            "computer_files": [
+                ["phone", "email/ss-passwords.email", "public"],
+                ["laptop", "documents/work/ssn_ha.sh", "public"]
+            ]
+        }
+    },
+    "not much time left": {
+        "single": 1,
+        "requirements": {
+            "solved": ["Kenneth's-laptop"],
+            "mode": "real"
+        },
+        "results": {
+            "dialogue": "you hve recieved an email from Sorth",
+            "computer_file": ["phone","email/not-much-time.email", "public"]
+        }
+    },
+    "going back to real world after breaking into boss's computer": {
+        "single": 1,
+        "requirements": {
+            "solved": ["Talos's-laptop"],
+            "mode": "real"
+        },
+        "results": {
+            "worlstate": "win"
+        }
+    },
+    "got fired": {
+        "single": 1,
+        "requirements": {
+            "under reputation": 0
+        },
+        "results": {
+            "dialogue": "your reputation sank so low that that Talos had no choice but to fire instantly such a miserable employee.",
+            "worlstate": "lose"
+        }
+    },
+    "prompted to steal postcard": {
+        "single": 1,
+        "requirements": {
+            "talking": ["Teresa"]
+        },
+        "results": {
+            "dialogue": "(Teresa) also, so, there's something you could help me with. could you go that postcard in Jessica's cubicle? the one with her and Ian on it? I'd really appriciate it, and if you do, I'll give you some juicy gossip about the other employees. deal?"
+        }
+    },
+    "caught taking postcard": {
+        "single": 1,
+        "requirements": {
+            "items": ["postcard"],
+            "time": "day",
+            "locations": ["Jessica's-office"]
+        },
+        "results": {
+            "dialogue": "(Jessica) what the hell player! that's private.\n(Jessica snatches away the postcard and puts it back in its place.)",
+            "take": ["postcard"],
+            "place object": ["postcard", "Jessica's-cubicle"],
+            "reputation": -3
+        }
+    },
+    "stole postcard for Teresa": {
+        "single": 1,
+        "requirements": {
+            "talking": ["Teresa"],
+            "items": ["postcard"]
+        },
+        "results": {
+            "dialogue": "(Teresa) oo this is perfect! I really appriciate you getting this. here's a few pieces of info that I've gathered myself.",
+            "take": ["postcard"],
+            "items": ["gossip-notes"],
+            "reputation": 6
+        }
+    },
+    "talk to Larry": {
+        "single": 1,
+        "requirements": {
+            "talking": ["Larry"]
+        },
+        "results": {
+            "dialogue": "(Larry) go give these faxes to the Boss, they just came in.",
+            "items": ["faxes"]
+        }
+    },
+    "give faxes to Boss": {
+        "single": 1,
+        "requirements": {
+            "talking": ["Talos"],
+            "items": ["faxes"]
+        },
+        "results": {
+            "dialogue": "(Talos) Thank you for these, now go get on with the rest of your work.",
+            "take": ["faxes"],
+            "reputation": 7
+        }
+    },
+
+    "enter SORT at night more times": {
+        "single": 0,
+        "requirements": {
+            "locations": ["SORT"],
+            "time": "night",
+            "actions": ["enter SORT at night second time"]
+        },
+        "results": {
+            "dialogue": "(Janitor) still snooping around here at night? (the Janitor eyes you suspiciously, then continues cleaning the floor)",
+            "reputation": -3
+        }
+    },
+    
+    "enter SORT at night second time": {
+        "single": 1,
+        "requirements": {
+            "locations": ["SORT"],
+            "time": "night",
+            "actions": ["enter SORT at night first time"]
+        },
+        "results": {
+            "dialogue": "(Janitor) *glances up at you suspiciously*"
+        }
+    },
+    
+    "enter SORT at night first time": {
+        "single": 1,
+        "requirements": {
+            "locations": ["SORT"],
+            "time": "night"
+        },
+        "results": {
+            "dialogue": "(Janitor) a bit late to be at work, wouldn't you say?"
+        }
+    },
+
+    "got 15 reputation": {
+        "single": 1,
+        "requirements": {
+            "worldstate": "normal",
+            "reputation": 20,
+            "mode": "real"
+        },
+        "results": {
+            "dialogue": "you recieved an email from Sorth.",
+            "computer_files": [
+                ["phone", "email/ranking-up.email", "public"],
+                ["laptop", "documents/work/personalities.py", "public"]
+            ]
+        }
+    },
+    "got 25 reputation": {
+        "single": 1,
+        "requirements": {
+            "worldstate": "normal",
+            "reputation": 30,
+            "mode": "real"
+        },
+        "results": {
+            "dialogue": "you recieved an email from Sorth.",
+            "computer_files": [
+                ["phone", "email/high-ranking.email", "public"],
+                ["laptop", "documents/work/cam_anlyz.data", "public"]
+            ]
+        }
+    }
+}
