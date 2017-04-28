@@ -1,0 +1,20 @@
+=================================================
+= from: iansmith@hide.me
+=================================================
+= to: kfr@sort.org
+=================================================
+= subject: unusual activity?
+=================================================
+
+Hey Kenneth. Recently I’ve been noticing some unusual activity on my work laptop. Sometimes file-explorer windows are opened in the morning that weren’t open the previous night. Do you happen to know if we’re having a problem with intruders or something? Or is the boss just remotely using our laptops sometimes? Have you been having issues?
+
+
+=================================================
+= from: kfr@sort.org
+=================================================
+= to: iansmith@hide.me
+=================================================
+= subject: unusual activity?
+=================================================
+
+That’s really weird Ian, idk anything about something as serious as intruders. Maybe someone just accidentally used your laptop? But they would need your password too, hm. Well, its probably just the boss, you should ask him about it.
