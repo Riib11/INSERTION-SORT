@@ -1,5 +1,6 @@
 import time
 from special_commands import clear
+import special_commands
 import sys
 import random
 from accessor import *
