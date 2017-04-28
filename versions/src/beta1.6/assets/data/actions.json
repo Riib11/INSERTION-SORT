@@ -36,7 +36,7 @@
             "mode": "real"
         },
         "results": {
-            "dialogue": "you really should get to work. today is your first day! your car is in the garage, so get to it and be on your way.) Explore rooms with 'explore' and 'inspect [object]', and use 'nearby' and 'map' to figure out where to go."
+            "dialogue": "you really should get to work. today is your first day! your car is in the garage, so get to it and be on your way.) Explore rooms with 'explore' and 'inspect [object]', and use 'nearby' and 'map' to figure out where to go. also, you'll need to figure out the passwords to you laptop and phone, so look around inside stuff in your room for a hint."
         }
     },
     "stealing sandwich": {
