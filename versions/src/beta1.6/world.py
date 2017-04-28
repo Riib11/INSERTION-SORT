@@ -428,7 +428,7 @@ class Computer(GameObject):
     def run(self, path):
         if self.get_directory(path):
             tp = path.split(".")
-            if len(lp) < 2:
+            if len(tp) < 2:
                 return False
             tp = tp[1]
             if tp == None:
