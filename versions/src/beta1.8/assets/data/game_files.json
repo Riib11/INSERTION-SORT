@@ -1,0 +1,101 @@
+{
+    "laptop": {
+        "documents": {
+            "work": {
+                "hacking101.txt": "hacking101.txt",
+                "model_ha.sh": "model_ha.sh"
+            },
+            "advice.txt": "advice.txt"
+        },
+        "downloads": {
+            "catpic.png": "catpic.png"
+        }
+    },
+
+    "phone": {
+        "email": {
+            "new-account.email": "new-account.email"
+        },
+        "notes": {
+            "passwords.txt": "passwords.txt"
+        },
+        "pictures": {
+            "testimage.png": "testimage.png"
+        }
+    },
+
+    "Ian's-laptop": {
+        "documents": {
+            "march-records.txt": "march-records.txt"
+        },
+        "email": {
+            "new-job.email": "new-job.email",
+            "babe.email": "babe.email"
+        },
+        "downloads": {
+            "catpic.png": "catpic.png"
+        }
+    },
+    "Jessica's-laptop": {
+        "documents": {
+            "training-data.txt": "training-data.txt",
+            "casualcat.png": "casualcat.png"
+        },
+        "email": {
+            "I-need-help-again.email": "I-need-help-again.email"
+        },
+        "downloads": {
+            "family-help.txt": "family-help.txt"
+        }
+    },
+    "Kenneth's-laptop": {
+        "documents": {
+            
+        },
+        "email": {
+            "unusual-activity.email": "unusual-activity.email",
+            "birthday-help.email": "birthday-help.email",
+            "cat-problems.email": "cat-problems.email"
+        },
+        "downloads": {
+            "boss's-cat1.png": "boss's-cat1.png",
+            "boss's-cat2.png": "boss's-cat2.png"
+        }
+    },
+    "Teresa's-laptop": {
+        "documents": {
+            "gossip-notes.txt": "youll never get in here"
+        },
+        "email": {
+            "gossip.email": "youll never gte in here"
+        },
+        "downloads": {
+
+        }
+    },
+    "Larry's-laptop": {
+        "documents": {
+            "crypto.sh": "crypto.sh",
+            "impossible.xx": "impossible.xx"
+        },
+        "email": {
+            "best-captcha.email": "best-captcha.email"
+        },
+        "downloads": {
+
+        }
+    },
+    "Boss's-laptop": {
+        "documents": {
+            "ai.txt": "ai.txt",
+            "impossible.xx": "impossible.xx"
+        },
+        "email": {
+            "training.email": "training.email"
+        },
+        "downloads": {
+            "boss's-cat1.png": "boss's-cat1.png",
+            "boss's-cat2.png": "boss's-cat2.png"
+        }
+    }
+}

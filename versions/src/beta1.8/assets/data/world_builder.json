@@ -1,0 +1,458 @@
+{
+    "gameobjects": {
+        "car": {
+            "desc": "its an ok car, its good enough."
+        },
+        "old-soda": {
+            "desc": "it looks like its been in here for a while. it probably would be fine to drink, but you don't feel like it right now.",
+            "specials": {
+                "active": "you take a sip. it tastes bad."
+            }
+        },
+        "bed": {
+            "desc": "your bed is really messy and is covered in clothes and books. you should probably clean it sometime..."
+        },
+        "yo-yo": {
+            "desc": "you used to yo-yo, but now you never have time.",
+            "attributes": ["can_pick_up"],
+            "specials": {
+                "active": "you whip the yo-yo downward, but it quickly gets tanged hopelessly. maybe the cat would have more fun with it."
+            }
+        },
+        "drawer": {
+            "desc": "you keep notes and such in here. some papers and gum wrappers are scattered on top. you need to clean this up too.",
+            "attributes": [],
+            "specials": {
+                "contents": ["old-note"]
+            }
+        },
+        "bookshelf": {
+            "desc": "it's got all your favorite novels, as well as some programming cookbooks with random animals on them."
+        },
+        "wallet": {
+            "desc": "full of too many receipts. you always think you might need them, but you never do.",
+            "attributes": ["can_pick_up"],
+            "specials": {
+                "active": "you only have monopoly money."
+            }
+        },
+        "old-note": {
+            "desc": "it says \"in case you forget your password (you probably will), it's 7777\"",
+            "attributes": ["can_pick_up"],
+            "specials": {}
+        },
+        "sandwich": {
+            "desc": "your cousin will probably eat this in the near future.",
+            "attributes": ["can_pick_up"],
+            "specials": {
+                "active": "you take a bite of the sandwich... but it's disgusting and you can barely force yourself to choke it down."
+            }
+        },
+        "old-desktop": {
+            "desc": "your ancient desktop with a demolished screen. your cousin was raging during a video game and took it out on the monitor with his fist.",
+            "specials": {
+                "active": "you press the on button, but the computer just sits there. it's not plugged in, what did you expect?"
+            }
+        },
+        "welcome-note": {
+            "desc": "it reads: 'welcome to SORT Solutions! We are glad to bring you aboard and we hope you are ready to start work right away. you should be able to find your office easily enough, we marked it for you. make sure to see you Boss within the first 30 minutes of your arrival, they will let you know what the plans are for your first day. Again, welcome!'",
+            "attributes": ["can_pick_up"]
+        },
+        "to-do-list": {
+            "desc": "1. sort invoices. 2. filter spam. 3. check vacation rentals. 4. social media ads.",
+            "attributes": ["can_pick_up"]
+        },
+        "Jacob's-bed": {
+            "desc": "littered with ps4 titles.",
+            "specials": {
+                "active": "you don't want to sleep here."
+            }
+        },
+        "playstation4": {
+            "desc": "used too much probably. its better that the xbox 1."
+        },
+        "football": {
+            "desc": "looks brand new. maybe Ian is more into watching football than playing it.",
+            "specials": {
+                "active": "you suck at football..."
+            }
+        },
+        "flatscreen-tv": {
+            "desc": "obviously very expensive, and usually playing football."
+        },
+        
+        "filing-cabinet": {
+            "desc": "seems like it is kept excessively tidy.",
+            "attributes": [],
+            "specials": {
+                "contents": ["generic-work-papers", "top-secret-file"]
+            }
+        },
+        "generic-work-papers": {
+            "desc": "just some generic work papers, as you would expect. they don't seem particularly important.",
+            "attributes": ["can_pick_up"]
+        },
+        "top-secret-file": {
+            "desc": "it reads 'The new job has been initiated and seems to be progressing well. Training will hopefully terminate soon, for we have big plans in the near future.'",
+            "attributes": ["can_pick_up"]
+        },
+        "paper-shredder": {
+            "desc": "eats papers."
+        },
+        "golf-club": {
+            "desc": "looks fairly worn, perhaps Ian actually does play golf.",
+            "attributes": ["can_pick_up"]
+        },
+        "big-desk": {
+            "desc": "a nice big round desk that is kept neatly organized with each stack of paper having its place."
+        },
+        "waste-bin": {
+            "desc": "full of papers and gum wrappers. kind of disgusting.",
+            "attributes": [],
+            "specials": {
+                "contents": ["gum-wrappers", "old-papers"]
+            }
+        },
+        "gum-wrappers": {
+            "desc": "some of them have gum in them, ew."
+        },
+        "old-papers": {
+            "desc": "an old paper on training results. training for what? football?"
+        },
+        "flower-vase": {
+            "desc": "a cute, red flower vase. no flowers inside."
+        },
+        "large-book": {
+            "desc": "the title is 'Lie Zi'. it's underneath a cup and a couple pens. it doesn't look often read."
+        },
+        "notepad": {
+            "desc": "there are some scribbles at the top of the first page, in a way that someone scribbles to see if their pen is working. the bottom half of the page is ripped away."
+        },
+        "trash-can": {
+            "desc": "seems like it was recently emptied, only a few paper scraps are at the bottom. if you open it, maybe you can see exactly what they are...",
+            "attributes": [],
+            "specials": {
+                "contents": ["notebook-scrap", "opened-mail"]
+            }
+        },
+        "notebook-scrap": {
+            "desc": "it reads 'mycatisclassy'",
+            "attributes": ["can_pick_up"],
+            "specials": {}
+        },
+        "opened-mail": {
+            "desc": "an opened mail envelope. its from 'Ser Vertest', who seems to be another employee.",
+            "attributes": ["can_pick_up"],
+            "specials": {}
+        },
+        "folder": {
+            "desc": "a folder with assorted, generic work papers inside.",
+            "attributes": ["can_pick_up"],
+            "specials": {}
+        },
+        "regular-desk": {
+            "desc": "just a regular sized desk, with Jessica's laptop on it"
+        },
+        "poster": {
+            "desc": "a large poster with a huge '3' on it, designed with swirly colors."
+        },
+        "chocolate-kiss": {
+            "desc": "you are very fond of these.",
+            "specials": {
+                "eat": "you eat the kiss. very tasty."
+            }
+        },
+        "Kenneth's-papers": {
+            "desc": "looks like a lot of work. the stack mostly consists of data analysis and colorful graphs."
+        },
+        "eotm-portrait": {
+            "desc": "the 'employee of the month' seems to be Ian. good for him."
+        },
+        "postcard": {
+            "desc": "there's a cute picture of Jessica and Ian on it, together on a beach somewhere. there is a big sea lion behind them. on the back there is a gushy love letter from Ian.",
+            "attributes": ["can_pick_up"]
+        },
+        "gossip-notes": {
+            "desc": "a creepily long list of gossip info about all the employees, including you! It reads:\n  - Ian tries to make it seem like he's into football and basketball, but hes actually into golf.\n  - Jessica tries to be super annoyed at her brother all the time, but she actually worked really hard to get him a job here.\n  - Larry thinks he's so cool knowing enlish and french fluently, but he actually only knows a few words of french.\n  - the Boss likes cats way too much...\n  - Kenneth does everything on a whim, usually making desicions right in the moment. one time he was trying to impress me by seeming really knowledgable about astronomy, but he was just reading an astronomy poster behind me.\n  - the new guy seems alright, he doesn't seem to do much work though, and his phone is always going off when he's talking to people. maybe he won't stay for long.",
+            "attributes": ["can_pick_up"]
+        },
+        "faxes": {
+            "desc": "a lot of faxes all stacked up.",
+            "attributes": ["can_pick_up"]
+        },
+        "french-dictionary": {
+            "desc": "looks like its been sparsley used."
+        },
+        "crypto-textbook": {
+            "desc": "looks like it's been sparsley used."
+        },
+        "rubik's-cube": {
+            "desc": "you used to do these all the time when you were a kid.",
+            "attributes": ["can_pick_up"],
+            "specials": {
+                "active": "you solve it in about 2 minutes. pretty good!"
+            }
+        },
+        "trash-bin": {
+            "desc": "its empty",
+            "specials":{
+                "contents": []
+            }
+        },
+        "C3PO-figure": {
+            "desc": "from Star Wars™.",
+            "attributes": ["can_pick_up"],
+            "specials": {
+                "active": "you're an adult, you don't play with toys."
+            }
+        },
+        "SORT-poster": {
+            "desc": "has the SORT company logo and a cheesy motto under it."
+        },
+        "fancy-desk": {
+            "desc": "very very fancy, fitting of a Boss."
+        },
+        "cabinet": {
+            "desc": "a simple cabinet.",
+            "specials": {
+                "contents": ["Republic", "Report-From-Earth"]
+            }
+        },
+        "Republic": {
+            "desc": "the Plato text. looks likes its been read many times."
+        },
+        "Report-From-Earth": {
+            "desc": "looks like a funny book, trying to draw away people's attention from the 'popular' problems of the future."
+        },
+        "pamphlet": {
+            "desc": "an info pamphlet about the company",
+            "attributes": ["can_pick_up"]
+        },
+        "romance-novel": {
+            "desc": "an overdramatic romance novel...",
+            "attributes": ["can_pick_up"]
+        }
+    },
+
+    "computers": {
+        "laptop": {
+            "owner": "player",
+            "desc": "your laptop for work, and also some things you do in your free time.",
+            "can_pick_up": 1
+        },
+        "phone": {
+            "owner": "player",
+            "desc": "your old windows phone. it still kind of works and the screen is mostly not broken.",
+            "can_pick_up": 1
+        },
+        "Ian's-laptop": {
+            "owner": "Ian",
+            "desc": "its a pretty standard acer-aspire laptop. you don't particularly like the brand though.",
+            "can_pick_up": 0,
+            "model": "acer-aspire"
+        },
+        "Jessica's-laptop": {
+            "owner": "Jessica",
+            "desc": "its a pretty standard laptop. looks like a dell-xps",
+            "can_pick_up": 0,
+            "model": "dell-xps"
+        },
+        "Kenneth's-laptop": {
+            "owner": "Kenneth",
+            "desc": "its a pretty standard laptop. you can't make out the model.",
+            "can_pick_up": 0,
+            "model": "hp-pavillion"
+        },
+        "Teresa's-laptop": {
+            "owner": "Teresa",
+            "desc": "its a pretty standard laptop, and there's a flower sticker on the back of the monitor.",
+            "can_pick_up": 0,
+            "model": "hp-compaq"
+        },
+        "Larry's-laptop": {
+            "owner": "Larry",
+            "desc": "looks like a gaming laptop.",
+            "can_pick_up": 0,
+            "model": "dell-xps"
+        },
+        "Boss's-laptop": {
+            "owner": "Talos",
+            "desc": "straight black with just the SORT logo on it.",
+            "can_pick_up": 0,
+            "model": "hp-elitebook"
+        }
+    },
+    
+    "npcs": {
+        "Cat": {
+            "desc": "your playful, fluffy cat. named after the Cat programming language.",
+            "location": "bedroom"
+        },
+        "Jacob": {
+            "desc": "your annoying and lazy cousin that is always spends your money on ram for his gaming pc. you only keep him around because he pays rent and is great at bugtesting.",
+            "location": "kitchen"
+        },
+        "Talos": {
+            "desc": "your boss",
+            "location": "Boss's-office"
+        },
+        "Ian": {
+            "desc": "Ian is the assistance HR director. he always has an air of authority around him, even though he's just an assistant.",
+            "location": "Ian's-cubicle"
+        },
+        "Jessica": {
+            "desc": "just another person",
+            "location": "Jessica's-cubicle"
+        },
+        "Kenneth": {
+            "desc": "just another person",
+            "location": "Kenneth's-cubicle"
+        },
+        "Teresa": {
+            "desc": "just another person",
+            "location": "Teresa's-office"
+        },
+        "Larry": {
+            "desc": "just another person",
+            "location": "Larry's-cubicle"
+            },
+        "Stray-cat": {
+            "desc": "a frisky black cat. when you try to pet it, it shrinks away, and then as soon as you withdraw, it scampers around.",
+            "location": "Jessica's-cubicle"
+        },
+        "Janitor": {
+            "desc": "looks tired and unhappy, but suspicious that you are here.",
+            "location": "SORT"
+        }
+    },
+
+    "player": {
+        "name": "none",
+        "mode": "comp",
+        "computer": "laptop",
+        "computer_location": [],
+        "location": "bedroom",
+        "inventory": ["wallet"],
+        "devices": ["laptop","phone"],
+        "reputation": 10
+    },
+
+    "locations": {
+        "bedroom": {
+            "connections": ["kitchen", "garage", "SORT"],
+            "desc": "its very messy in here.",
+            "gameobjects": ["bed","yo-yo", "bookshelf", "drawer"],
+            "computers": ["laptop"],
+            "day_npcs": ["Cat"],
+            "night_npcs": ["Cat"]
+        },
+        "Jacob's-bedroom": {
+            "connections": ["kitchen"],
+            "desc": "its extremely messy in here.",
+            "gameobjects": ["Jacob's-bed","playstation4"],
+            "computers": ["Jacob's-laptop"],
+            "day_npcs": [],
+            "night_npcs": ["Jacob"]
+        },
+        "garage": {
+            "connections": ["kitchen", "bedroom", "car"],
+            "desc": "at least this part of your house is relatively clean.",
+            "gameobjects": ["car","old-desktop"],
+            "computers": [],
+            "day_npcs": [],
+            "night_npcs": []
+        },
+        "kitchen": {
+            "connections": ["bedroom", "garage", "Jacob's-bedroom"],
+            "desc": "just coming in here makes you hungry",
+            "gameobjects": ["sandwich"],
+            "computers": [],
+            "day_npcs": ["Jacob"],
+            "night_npcs": []
+        },
+        "car": {
+            "connections": ["SORT", "garage"],
+            "desc": "its a good enough car.",
+            "gameobjects": ["old-soda"],
+            "computers": [],
+            "day_npcs": [],
+            "night_npcs": []
+        },
+        "SORT": {
+            "connections": ["car", "my-cubicle", "Boss's-office", "Ian's-cubicle", "Jessica's-cubicle", "Kenneth's-cubicle", "Larry's-cubicle", "info-desk"],
+            "desc": "this lobby room is huge. it sometimes intimidates you.",
+            "gameobjects": ["eotm-portrait"],
+            "computers": [],
+            "day_npcs": [],
+            "night_npcs": ["Janitor"]
+        },
+        "my-cubicle": {
+            "connections": ["SORT", "Boss's-office", "Ian's-cubicle", "Jessica's-cubicle", "Kenneth's-cubicle", "Larry's-cubicle", "info-desk"],
+            "desc": "its completely cleaned out, ready for you to start working.",
+            "gameobjects": [],
+            "computers": [],
+            "day_npcs": [],
+            "night_npcs": []
+        },
+        "Ian's-cubicle": {
+            "connections": ["SORT", "my-cubicle", "Boss's-office", "Jessica's-cubicle", "Kenneth's-cubicle", "Larry's-cubicle", "info-desk"],
+            "desc": "Ian looks like he's pretty well off; he's got a big flat screen tv that's usually displaying an intense football game.",
+            "gameobjects": ["football", "flatscreen-tv", "filing-cabinet", "golf-club", "paper-shredder", "big-desk", "waste-bin"],
+            "computers": ["Ian's-laptop"],
+            "day_npcs": ["Ian"],
+            "night_npcs": []
+        },
+        "Jessica's-cubicle": {
+            "connections": ["SORT", "my-cubicle", "Boss's-office", "Ian's-cubicle", "Kenneth's-cubicle", "Larry's-cubicle", "info-desk"],
+            "desc": "This cubicle has a great view outside into the park next to the building",
+            "gameobjects": ["flower-vase", "large-book", "notepad", "trash-can", "folder", "regular-desk", "postcard"],
+            "computers": ["Jessica's-laptop"],
+            "day_npcs": ["Jessica"],
+            "night_npcs": ["Stray-cat"]
+        },
+        "Kenneth's-cubicle": {
+            "connections": ["SORT", "my-cubicle", "Boss's-office", "Ian's-cubicle", "Larry's-cubicle", "Jessica's-cubicle", "info-desk"],
+            "desc": "its pretty sparse in here; just one poster on the wall. Kenneth looks irritated, and glances up at you and then back down to his computer.",
+            "gameobjects": ["poster"],
+            "computers": ["Kenneth's-laptop"],
+            "day_npcs": ["Kenneth"],
+            "night_npcs": []
+        },
+        "info-desk": {
+            "connections": ["SORT", "my-cubicle", "Boss's-office", "Ian's-cubicle", "Kenneth's-cubicle", "Larry's-cubicle"],
+            "desc": "This area seems more warm and welcoming than the cubicles.",
+            "gameobjects": ["pamphlet","romance-novel"],
+            "computers": ["Teresa's-laptop"],
+            "day_npcs": ["Teresa"],
+            "night_npcs": []
+        },
+        "Boss's-office": {
+            "connections": ["SORT", "my-cubicle", "Ian's-cubicle", "Kenneth's-cubicle", "Larry's-cubicle", "info-desk"],
+            "desc": "A rigid, sturdy office, overlooked by an official-looking SORT piece.",
+            "gameobjects": ["C3PO-figure", "SORT-poster","fancy-desk", "cabinet"],
+            "computers": ["Boss's-laptop"],
+            "day_npcs": ["Talos"],
+            "night_npcs": []
+        },
+        "Larry's-cubicle": {
+            "connections": ["SORT", "my-cubicle", "Boss's-office", "Ian's-cubicle", "Kenneth's-cubicle", "info-desk"],
+            "desc": "A couple books are scattered about, and the room smells really clean.",
+            "gameobjects": ["french-dictionary", "crypto-textbook", "rubik's-cube", "trash-bin"],
+            "computers": ["Larry's-laptop"],
+            "day_npcs": ["Larry"],
+            "night_npcs": []
+        },
+        "_example": {
+            "connections": ["SORT"],
+            "desc": "",
+            "gameobjects": [],
+            "computers": [],
+            "day_npcs": [],
+            "night_npcs": []
+        }
+    },
+    
+    "time": {
+        "now": "day"
+    }
+}
