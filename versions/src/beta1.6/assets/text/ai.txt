@@ -1,0 +1,4 @@
+this will be a note in the boss’s laptop about ai and how it works relevant to the game:
+- how ai is dangerous to the government
+- need to find out how people will try to stop the ai
+- keeping ai running is top priority over anything, simply by algorithmic necessity
